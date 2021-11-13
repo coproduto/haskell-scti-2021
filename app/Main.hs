@@ -1,6 +1,6 @@
 module Main where
 
-import Lib (hello, fizzBuzz)
+import Lib (hello, fizzBuzz, fizzBuzzInteractive)
 
 main :: IO ()
-main = fizzBuzz
+main = fizzBuzzInteractive
