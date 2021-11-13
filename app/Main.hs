@@ -2,6 +2,7 @@ module Main where
 
 import Lib (hello, fizzBuzz, fizzBuzzInteractive)
 import NewtonRaphson (findRoot)
+import Fibonacci (fib)
 
 import Text.Read (readMaybe)
 

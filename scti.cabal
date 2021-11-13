@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 640a0f1a42ce6d55cc751c19740dbdfb19c029bee20b4424a8cb9df0e9d853d8
+-- hash: ede94936f61f3294dadef06beb0c8fa2c87438d295396862dae1db088007cf71
 
 name:           scti
 version:        0.1.0.0
@@ -27,6 +27,7 @@ source-repository head
 
 library
   exposed-modules:
+      Fibonacci
       Lib
       NewtonRaphson
   other-modules:
