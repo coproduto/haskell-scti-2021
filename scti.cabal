@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 82e1a9fe2569e668b629639c05cca4254e0e118407e135bd8b043527e47333d2
+-- hash: 640a0f1a42ce6d55cc751c19740dbdfb19c029bee20b4424a8cb9df0e9d853d8
 
 name:           scti
 version:        0.1.0.0
@@ -28,6 +28,7 @@ source-repository head
 library
   exposed-modules:
       Lib
+      NewtonRaphson
   other-modules:
       Paths_scti
   hs-source-dirs:
